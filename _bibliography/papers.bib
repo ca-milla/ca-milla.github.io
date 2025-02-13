@@ -1,115 +1,241 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{ramponi2023geolingit,
+  title={GeoLingIt at EVALITA 2023: Overview of the Geolocation of Linguistic Variation in Italy Task},
+  author={Ramponi, Alan and Casula, Camilla},
+  journal={Proceedings of the Eighth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian},
+  volume={3473},
+  year={2023},
+  bibtex_show={@article{ramponi2023geolingit}},
+  pdf={https://ceur-ws.org/Vol-3473/paper12.pdf},
+  html={https://ceur-ws.org/Vol-3473/paper12.pdf},
+  abstract={GeoLingIt is the first shared task on geolocation of linguistic variation in Italy from social media posts comprising content in language varieties other than standard Italian (i.e., regional Italian, and languages and dialects of Italy). The task is articulated into two subtasks of increasing complexity for which only textual content is allowed: i) coarse-grained geolocation, aiming at predicting the region in which the variety expressed in the post is spoken, and ii) fine-grained geolocation, aiming at predicting its exact coordinates. Both tasks can be either at the country level (standard track) or restricted to a linguistic area of choice (special track). GeoLingIt has attracted wide interest at the Evalita 2023 evaluation campaign with 37 registrations and 35 submitted runs. In this paper, we present the task and data, the evaluation criteria, the participants’ results, an analysis of their approaches, and the main insights from the shared task.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@misc{casula2024target,
+    title={A Target-Aware Analysis of Data Augmentation for Hate Speech Detection}, 
+    author={Camilla Casula and Sara Tonelli},
+    year={2024},
+    month={oct},
+    eprint={2410.08053},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    html={https://arxiv.org/abs/2410.08053},
+    bibtex_show={@misc{casula2024target}},
+    pdf={https://arxiv.org/pdf/2410.08053},
+    abstract={Hate speech is one of the main threats posed by the widespread use of social networks, despite efforts to limit it. Although attention has been devoted to this issue, the lack of datasets and case studies centered around scarcely represented phenomena, such as ableism or ageism, can lead to hate speech detection systems that do not perform well on underrepresented identity groups. Given the unpreceded capabilities of LLMs in producing high-quality data, we investigate the possibility of augmenting existing data with generative language models, reducing target imbalance. We experiment with augmenting 1,000 posts from the Measuring Hate Speech corpus, an English dataset annotated with target identity information, adding around 30,000 synthetic examples using both simple data augmentation methods and different types of generative models, comparing autoregressive and sequence-to-sequence approaches. We find traditional DA methods to often be preferable to generative models, but the combination of the two tends to lead to the best results. Indeed, for some hate categories such as origin, religion, and disability, hate speech classification using augmented data for training improves by more than 10% F1 over the no augmentation baseline. This work contributes to the development of systems for hate speech detection that are not only better performing but also fairer and more inclusive towards targets that have been neglected so far.}
+    } 
+
+
+
+@inproceedings{casula2020hate,
+  title={Hate Speech Detection with Machine-Translated Data: the Role of Annotation Scheme, Class Imbalance and Undersampling},
+  author={Casula, Camilla and Tonelli, Sara},
+  booktitle={Proceedings of the Seventh Italian Conference on Computational Linguistics, CLiC-it 2020},
+  volume={2769},
+  year={2020},
+  organization={CEUR-WS. org},
+  bibtex_show = {@inproceedings{casula2020hate}},
+  html = {https://ceur-ws.org/Vol-2769/paper_39.pdf},
+  pdf={https://ceur-ws.org/Vol-2769/paper_39.pdf}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{ceron2021exploiting,
+  title={Exploiting Contextualized Word Representations to Profile Haters on Twitter},
+  author={Ceron, Tanise and Casula, Camilla},
+  booktitle={CEUR WORKSHOP PROCEEDINGS},
+  volume={2936},
+  pages={1871--1882},
+  year={2021},
+  organization={CEUR-WS},
+  bibtex_show={@inproceedings{ceron2021exploiting}},
+  html = {https://ceur-ws.org/Vol-2936/paper-160.pdf},
+  pdf = {https://ceur-ws.org/Vol-2936/paper-160.pdf},
+  abstract = {In this paper, we present our submission to the Profiling Haters on Twitter shared task at PAN@CLEF2021.
+The task aims at analyzing Twitter feeds of users in two languages, English and Spanish, in order to determine whether these users spread hate speech on social media. For English, we propose an approach
+which exploits contextualized word embeddings and a statistical feature extraction method, in order
+to find words which are used in different contexts by haters and non-haters, and we use these words
+as features to train a classifier. For Spanish, on the other hand, we take advantage of BERT sequence
+representations, using the average of the sequence representations of all tweets from a user as a feature
+to train a model for classifying users into haters and non-haters.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@incollection{leonardelli2023dh,
+  title={DH-FBK at HODI: Multi-Task Learning with Classifier Ensemble Agreement, Oversampling and Synthetic Data},
+  author={Leonardelli, Elisa and Casula, Camilla and others},
+  booktitle={Proceedings of EVALITA 2023: 8th Evaluation Campaign of Natural Language Processing and Speech Tools for Italian},
+  volume={3473},
+  year={2023},
+  abstract = {We describe the systems submitted by the DH-FBK team to the HODI shared task, dealing with Homotransphobia detection in Italian tweets (Subtask A) and prediction of the textual spans carrying the homotransphobic content (Explainability - Subtask B). We adopt a multi-task approach, developing a model able to solve both tasks at once and learn from different types of information. In our architecture, we fine-tuned an Italian BERT-model for detecting homotransphobic content as a classification task and, simultaneously, for locating the homotransphobic spans as a sequence labeling task. We also took into account the subjective nature of the task by artificially estimating the level of agreement among the annotators using a 5-classifier ensemble and incorporating this information in the multi-task setup. Moreover, we experimented by extending the initial training data with oversampling (Run 1) and via generation of synthetic data (Run2). Our runs achieve competitive results in both tasks. Finally, we conducted a series of additional experiments and a qualitative error analysis},
+  html= {https://ceur-ws.org/Vol-3473/paper31.pdf},
+  pdf = {https://ceur-ws.org/Vol-3473/paper31.pdf},
+  bibtex_show = {@incollection{leonardelli2023dh}}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@phdthesis{casula2024rise,
+  title={Rise and Pitfalls of Synthetic Data for Abusive Language Detection},
+  author={Casula, Camilla},
+  year={2024},
+  school={Universit{\`a} degli studi di Trento},
+  bibtex_show={@phdthesis{casula2024rise}},
+  html={https://iris.unitn.it/handle/11572/436426},
+  abstract={Synthetic data has been proposed as a method to potentially mitigate a number of issues with existing models and datasets for abusive language detection online, such as negative psychological impact on annotators, privacy issues, dataset obsolescence and representation bias. However, previous work on the topic has mostly focused on downstream task performance of models, without paying much attention to the evaluation of other aspects. In this thesis, we carry out a series of experiments and analyses on synthetic data for abusive language detection going beyond performance, with the goal of assessing both the potential and the pitfalls of synthetic data from a qualitative point of view. More specifically, we study synthetic data for abusive language detection in English focusing on four aspects: robustness, examining the ability of models trained on synthetic data to generalize to out-of-distribution scenarios; fairness, with an exploration of the representation of identity groups; privacy, exploring the use of entirely synthetic datasets to avoid sharing user-generated data; and finally we consider the quality of the synthetic data, through a manual annotation and analysis of how realistic and representative of real data synthetic data can be with regards to abusive language.},
+  pdf={https://iris.unitn.it/retrieve/92a1eecb-0d4a-46b3-8c23-885bab333c27/Tesi_PhD_Casula_def.pdf}
+
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{casula-etal-2020-fbk,
+    title = "{FBK}-{DH} at {S}em{E}val-2020 Task 12: Using Multi-channel {BERT} for Multilingual Offensive Language Detection",
+    author = "Casula, Camilla  and
+      Palmero Aprosio, Alessio  and
+      Menini, Stefano  and
+      Tonelli, Sara",
+    editor = "Herbelot, Aurelie  and
+      Zhu, Xiaodan  and
+      Palmer, Alexis  and
+      Schneider, Nathan  and
+      May, Jonathan  and
+      Shutova, Ekaterina",
+    booktitle = "Proceedings of the Fourteenth Workshop on Semantic Evaluation",
+    month = dec,
+    year = "2020",
+    address = "Barcelona (online)",
+    publisher = "International Committee for Computational Linguistics",
+    html = "https://aclanthology.org/2020.semeval-1.201/",
+    bib = "https://aclanthology.org/2020.semeval-1.201.bib/",
+    pdf = "https://aclanthology.org/2020.semeval-1.201.pdf/",
+    doi = "10.18653/v1/2020.semeval-1.201",
+    pages = "1539--1545",
+    abstract = "In this paper we present our submission to sub-task A at SemEval 2020 Task 12: Multilingual Offensive Language Identification in Social Media (OffensEval2). For Danish, Turkish, Arabic and Greek, we develop an architecture based on transfer learning and relying on a two-channel BERT model, in which the English BERT and the multilingual one are combined after creating a machine-translated parallel corpus for each language in the task. For English, instead, we adopt a more standard, single-channel approach. We find that, in a multilingual scenario, with some languages having small training data, using parallel BERT models with machine translated data can give systems more stability, especially when dealing with noisy data. The fact that machine translation on social media data may not be perfect does not hurt the overall classification performance."
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{ramponi-casula-2023-diatopit,
+    title = "{D}iatop{I}t: A Corpus of Social Media Posts for the Study of Diatopic Language Variation in {I}taly",
+    author = "Ramponi, Alan  and
+      Casula, Camilla",
+    editor = {Scherrer, Yves  and
+      Jauhiainen, Tommi  and
+      Ljube{\v{s}}i{\'c}, Nikola  and
+      Nakov, Preslav  and
+      Tiedemann, J{\"o}rg  and
+      Zampieri, Marcos},
+    booktitle = "Tenth Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial 2023)",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    html = "https://aclanthology.org/2023.vardial-1.19/",
+    pdf = "https://aclanthology.org/2023.vardial-1.19.pdf/",
+    bib = "https://aclanthology.org/2023.vardial-1.19.bib/",
+    doi = "10.18653/v1/2023.vardial-1.19",
+    pages = "187--199",
+    abstract = "We introduce DiatopIt, the first corpus specifically focused on diatopic language variation in Italy for language varieties other than Standard Italian. DiatopIt comprises over 15K geolocated social media posts from Twitter over a period of two years, including regional Italian usage and content fully written in local language varieties or exhibiting code-switching with Standard Italian. We detail how we tackled key challenges in creating such a resource, including the absence of orthography standards for most local language varieties and the lack of reliable language identification tools. We assess the representativeness of DiatopIt across time and space, and show that the density of non-Standard Italian content across areas correlates with actual language use. We finally conduct computational experiments and find that modeling diatopic variation on highly multilingual areas such as Italy is a complex task even for recent language models."
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@inproceedings{leonardelli-casula-2023-dh,
+    title = "{DH}-{FBK} at {S}em{E}val-2023 Task 10: Multi-Task Learning with Classifier Ensemble Agreement for Sexism Detection",
+    author = "Leonardelli, Elisa  and
+      Casula, Camilla",
+    editor = {Ojha, Atul Kr.  and
+      Do{\u{g}}ru{\"o}z, A. Seza  and
+      Da San Martino, Giovanni  and
+      Tayyar Madabushi, Harish  and
+      Kumar, Ritesh  and
+      Sartori, Elisa},
+    booktitle = "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    html = "https://aclanthology.org/2023.semeval-1.261/",
+    bib = "https://aclanthology.org/2023.semeval-1.261.bib/",
+    html = "https://aclanthology.org/2023.semeval-1.261.pdf/",
+    doi = "10.18653/v1/2023.semeval-1.261",
+    pages = "1894--1905",
+    abstract = "This paper presents the submissions of the DH-FBK team for the three tasks of Task 10 at SemEval 2023. The Explainable Detection of Online Sexism (EDOS) task aims at detecting sexism in English text in an accurate and explainable way, thanks to a fine-grained annotation that follows a three-level schema: sexist or not (Task A), category of sexism (Task B) and vector of sexism (Task C) exhibited. We use a multi-task learning approach in which models share representations from all three tasks, allowing for knowledge to be shared across them. Notably, with our approach a single model can solve all three tasks. In addition, motivated by the subjective nature of the task, we incorporate inter-annotator agreement information in our multi-task architecture. Although disaggregated annotations are not available, we artificially estimate them using a 5-classifier ensemble, and show that ensemble agreement can be a good approximation of crowd agreement. Our approach achieves competitive results, ranking 32nd out of 84, 24th out of 69 and 11th out of 63 for Tasks A, B and C respectively. We finally show that low inter-annotator agreement levels are associated with more challenging examples for models, making agreement information use ful for this kind of task."
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{casula-tonelli-2023-generation,
+    title = "Generation-Based Data Augmentation for Offensive Language Detection: Is It Worth It?",
+    author = "Casula, Camilla and
+      Tonelli, Sara",
+    editor = "Vlachos, Andreas  and
+      Augenstein, Isabelle",
+    booktitle = "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    html = "https://aclanthology.org/2023.eacl-main.244/",
+    bibtex_show = "https://aclanthology.org/2023.eacl-main.24.bib/",
+    pdf = "https://aclanthology.org/2023.eacl-main.244.pdf/",
+    doi = "10.18653/v1/2023.eacl-main.244",
+    pages = "3359--3377",
+    abstract = "Generation-based data augmentation (DA) has been presented in several works as a way to improve offensive language detection. However, the effectiveness of generative DA has been shown only in limited scenarios, and the potential injection of biases when using generated data to classify offensive language has not been investigated. Our aim is that of analyzing the feasibility of generative data augmentation more in-depth with two main focuses. First, we investigate the robustness of models trained on generated data in a variety of data augmentation setups, both novel and already presented in previous work, and compare their performance on four widely-used English offensive language datasets that present inherent differences in terms of content and complexity. In addition to this, we analyze models using the HateCheck suite, a series of functional tests created to challenge hate speech detection systems. Second, we investigate potential lexical bias issues through a qualitative analysis on the generated data. We find that the potential positive impact of generative data augmentation on model performance is unreliable, and generative DA can also have unpredictable effects on lexical bias."
+}
+
+@inproceedings{casula-etal-2024-dont,
+    title = "Don`t Augment, Rewrite? Assessing Abusive Language Detection with Synthetic Data",
+    author = "Casula, Camilla  and
+      Leonardelli, Elisa  and
+      Tonelli, Sara",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    html = "https://aclanthology.org/2024.findings-acl.669/",
+    bibtex_show = "https://aclanthology.org/2024.findings-acl.669.bib/",
+    pdf = "https://aclanthology.org/2024.findings-acl.669.pdf/",
+    doi = "10.18653/v1/2024.findings-acl.669",
+    pages = "11240--11247",
+    abstract = "Research on abusive language detection and content moderation is crucial to combat online harm. However, current limitations set by regulatory bodies and social media platforms can make it difficult to share collected data. We address this challenge by exploring the possibility to replace existing datasets in English for abusive language detection with synthetic data obtained by rewriting original texts with an instruction-based generative model.We show that such data can be effectively used to train a classifier whose performance is in line, and sometimes better, than a classifier trained on original data. Training with synthetic data also seems to improve robustness in a cross-dataset setting. A manual inspection of the generated data confirms that rewriting makes it impossible to retrieve the original texts online."
+}
+
+@inproceedings{casula-etal-2024-delving,
+    title = {Delving into Qualitative Implications of Synthetic Data for Hate Speech Detection},
+    author = "Casula, Camilla  and
+      Vecellio Salto, Sebastiano  and
+      Ramponi, Alan  and
+      Tonelli, Sara",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    html = "https://aclanthology.org/2024.emnlp-main.1099/",
+    bibtex_show = "https://aclanthology.org/2024.emnlp-main.1099.bib/",
+    pdf = "https://aclanthology.org/2024.emnlp-main.1099.pdf/",
+    doi = "10.18653/v1/2024.emnlp-main.1099",
+    code={https://github.com/dhfbk/delving},
+    pages = "19709--19726",
+    abstract = "The use of synthetic data for training models for a variety of NLP tasks is now widespread. However, previous work reports mixed results with regards to its effectiveness on highly subjective tasks such as hate speech detection. In this paper, we present an in-depth qualitative analysis of the potential and specific pitfalls of synthetic data for hate speech detection in English, with 3,500 manually annotated examples. We show that, across different models, synthetic data created through paraphrasing gold texts can improve out-of-distribution robustness from a computational standpoint. However, this comes at a cost: synthetic data fails to reliably reflect the characteristics of real-world data on a number of linguistic dimensions, it results in drastically different class distributions, and it heavily reduces the representation of both specific identity groups and intersectional hate."
+}
+
+@inproceedings{ramponi-etal-2024-variationist,
+    title = "Variationist: Exploring Multifaceted Variation and Bias in Written Language Data",
+    author = "Ramponi, Alan  and
+      Casula, Camilla  and
+      Menini, Stefano",
+    editor = "Cao, Yixin  and
+      Feng, Yang  and
+      Xiong, Deyi",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    html = "https://aclanthology.org/2024.acl-demos.33/",
+    pdf = "https://aclanthology.org/2024.acl-demos.33.pdf/",
+    doi = "10.18653/v1/2024.acl-demos.33",
+    pages = "346--354",
+    bibtex_show = "https://aclanthology.org/2024.acl-demos.33.bib/",
+    abstract = "Exploring and understanding language data is a fundamental stage in all areas dealing with human language. It allows NLP practitioners to uncover quality concerns and harmful biases in data before training, and helps linguists and social scientists to gain insight into language use and human behavior. Yet, there is currently a lack of a unified, customizable tool to seamlessly inspect and visualize language variation and bias across multiple variables, language units, and diverse metrics that go beyond descriptive statistics. In this paper, we introduce Variationist, a highly-modular, extensible, and task-agnostic tool that fills this gap. Variationist handles at once a potentially unlimited combination of variable types and semantics across diversity and association metrics with regards to the language unit of choice, and orchestrates the creation of up to five-dimensional interactive charts for over 30 variable type-semantics combinations. Through our case studies on computational dialectology, human label variation, and text generation, we show how Variationist enables researchers from different disciplines to effortlessly answer specific research questions or unveil undesired associations in language data. A Python library, code, documentation, and tutorials are made publicly available to the research community."
 }

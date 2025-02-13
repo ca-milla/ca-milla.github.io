@@ -5,12 +5,12 @@
 @use "sass:color";
 
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #f7f3f0;
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-theme-color: #FFA601;
+  --global-hover-color: #FFA601;
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
@@ -76,12 +76,12 @@
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #{$grey-color-dark};
+  --global-bg-color: #363434;
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-theme-color: #fcba03;
+  --global-hover-color: #fcba03;
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
@@ -103,7 +103,7 @@ html[data-theme="dark"] {
   --global-tip-block-bg: #e2f5ec;
   --global-tip-block-text: #215d42;
   --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
+  --global-warning-block: #017c6a;
   --global-warning-block-bg: #fff8d8;
   --global-warning-block-text: #6b5900;
   --global-warning-block-title: #b29400;
