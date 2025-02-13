@@ -31,7 +31,7 @@ announcements:
   #   <p>email: ccasula[at]fbk.eu</p>
 
 ---
-Hi! My name is Camilla and I am a computational linguistics and NLP postdoctoral researcher at the <a href='https://dh.fbk.eu/'>Digital Humanities group</a> @ Fondazione Buno Kessler in Trento, Italy. 
+Hi! My name is Camilla and I am a computational linguistics and NLP postdoctoral researcher at the <a href='https://dh.fbk.eu/'>Digital Humanities group</a> @ Fondazione Bruno Kessler in Trento, Italy. 
 
 My research interests include (but are not limited to):
 - Fairness and bias issues in NLP
